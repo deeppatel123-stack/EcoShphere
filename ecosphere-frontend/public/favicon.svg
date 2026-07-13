@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <!-- ESG Colors Gradient representing Environmental (Green), Governance (Blue) and Social (Purple) -->
+    <linearGradient id="esgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="60%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+
+  <!-- EcoSphere circular globe base -->
+  <circle cx="16" cy="16" r="14.5" fill="url(#esgGrad)" />
+
+  <!-- Outer ambient ring overlay -->
+  <circle cx="16" cy="16" r="14" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" fill="none" />
+
+  <!-- Orbital ring representing Sphere operations -->
+  <ellipse cx="16" cy="16" rx="12" ry="3.5" transform="rotate(-30 16 16)" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.95" fill="none" />
+
+  <!-- Clean custom leaf representing Environment (Eco) -->
+  <g transform="translate(10, 10)">
+    <!-- Main leaf shape in white -->
+    <path d="M6 11a3.5 3.5 0 0 1-.6-6.96C8.2 3.4 8.9 3.1 10 1.9c.5 1 .9 1.7.9 2.7A3.5 3.5 0 0 1 6 11z" fill="#ffffff" />
+    <!-- Leaf stem showing background gradient through the shape -->
+    <path d="M10 1.9L6.5 5.5" stroke="#0ea5e9" stroke-width="1.2" stroke-linecap="round" fill="none" />
+  </g>
+</svg>
