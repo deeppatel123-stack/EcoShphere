@@ -125,7 +125,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to interact with the platform!
+Open https://eco-sphere-esg-management-platform-brown.vercel.app/ in your browser to interact with the platform!
 
 ---
 
